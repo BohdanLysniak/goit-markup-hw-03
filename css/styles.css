@@ -7,8 +7,44 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -20,12 +56,16 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .accent-studio {
   color: #2e2f42;
 }
 
+.menu-items-nav {
+  padding: 24px 0;
+}
 .link-nav {
   font-weight: 500;
   text-decoration: none;
@@ -39,6 +79,11 @@ ul {
 
 .contacts {
   font-style: normal;
+}
+
+.contacts-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .link-contacts {
