@@ -30,17 +30,20 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .box-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 71px;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu {
@@ -64,13 +67,11 @@ p {
   color: #2e2f42;
 }
 
-.menu-items-nav {
-  padding: 24px 0;
-}
 .link-nav {
   font-weight: 500;
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -133,6 +134,7 @@ p {
   margin-left: auto;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -141,8 +143,17 @@ p {
   cursor: pointer;
 }
 
-.advantages-page {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-advantages {
@@ -215,6 +226,7 @@ p {
 .portfolio-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
@@ -229,7 +241,7 @@ p {
 }
 
 .product {
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .heading {
