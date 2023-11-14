@@ -180,7 +180,6 @@ p {
 }
 
 .team-caption {
-  max-width: 162px;
   height: 40px;
   margin: 0 auto 72px auto;
 }
@@ -218,7 +217,6 @@ p {
 }
 
 .portfolio-caption {
-  max-width: 218px;
   height: 40px;
   margin: 0 auto 72px auto;
 }
